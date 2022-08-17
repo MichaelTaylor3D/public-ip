@@ -1,6 +1,6 @@
 {
 	"name": "public-ip",
-	"version": "6.0.2",
+	"version": "6.0.3",
 	"description": "Get your public IP address — very fast!",
 	"license": "MIT",
 	"repository": "sindresorhus/public-ip",
@@ -42,8 +42,6 @@
 		"dns"
 	],
 	"dependencies": {
-		"aggregate-error": "^4.0.1",
-		"is-ip": "^4.0.0",
 		"node-fetch": "^3.2.10"
 	},
 	"devDependencies": {

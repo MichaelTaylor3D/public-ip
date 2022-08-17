@@ -1,4 +1,3 @@
-import { isIPv6, isIPv4 } from "is-ip";
 import fetch from "node-fetch";
 
 const defaults = {
@@ -100,11 +99,7 @@ const queryHttps = (version, options) => {
 
 						const ip = (data || "").trim();
 
-						const method = version === "v6" ? isIPv6 : isIPv4;
-
-						if (ip && method(ip)) {
-							return ip;
-						}
+						return ip;
 					}
 				} catch (error) {
 					lastError = error;
