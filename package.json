@@ -43,9 +43,8 @@
 	],
 	"dependencies": {
 		"aggregate-error": "^4.0.1",
-		"dns-socket": "^4.2.2",
-		"got": "^12.1.0",
-		"is-ip": "^4.0.0"
+		"is-ip": "^4.0.0",
+		"node-fetch": "^3.2.10"
 	},
 	"devDependencies": {
 		"ava": "^4.3.0",
